@@ -96,6 +96,8 @@ html {
 body {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
+   color: #e2e3ed;
+   text-align: left;
 }
 
 ul,
@@ -111,6 +113,7 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -118,6 +121,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  font-weight: 500;
 
 }
 
@@ -148,6 +152,7 @@ address {
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,9 +176,14 @@ header .content-wrapper {
 .header-divider {
   width: 100%;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
+  height: 1em;
 }
 
 header nav {
+  font-size: 1.125;
+  font-weight: bold;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,9 +197,14 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li {
+  font-size: 1.125;
+}
+
 /* ----- Footer Styles ----- */
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -222,18 +237,58 @@ footer .copyright {
   margin: 20px 0;
 }
 
+/*** Hero Area ***/
+
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+/*** Aside ***/
+
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*** Features ***/
 
 .features {
   display: flex;
@@ -258,16 +313,21 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
+/*** Reviews ***/
+
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 .reviews h2 {
+  line-height: 1em;
   margin-bottom: 40px;
 }
 
@@ -276,7 +336,10 @@ aside {
   margin: 20px 0;
 }
 
+/*** About page ***/
+
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,6 +347,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +358,11 @@ aside {
   margin: 0;
 }
 
+/*** FAQ page ***/
+
 .faq {
+  background-color: #527158;
+  line-height: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,6 +378,7 @@ aside {
 }
 
 .faq h2 {
+  line-height: 1em;
   margin: 40px;
 }
 
