@@ -245,12 +245,12 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/***** Mobile Styles *****/
+/***** Mobile Styles - Homepage *****/
 
 /*** Hero Area ***/
 
 .hero-area {
-  background: url('../img/unplugged-retreat.jpg');
+  background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -329,6 +329,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 .features p {
   text-align: center;
   margin: 0;
