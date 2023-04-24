@@ -185,15 +185,15 @@ header figure {
   width: 100%;
   margin: 10px 0 20px 0;
   background: #3a3a3a;
-  height: 1em;
+  height: 1px;
 }
 
 header nav {
-  font-size: 1.125;
-  font-weight: bold;
+  font-size: 1.125em;
+  font-weight: 700;
   text-transform: uppercase;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -206,7 +206,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125;
+  font-size: 1.125em;
 }
 
 /* ----- Footer Styles ----- */
@@ -236,9 +236,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
