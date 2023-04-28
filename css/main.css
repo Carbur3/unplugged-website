@@ -332,7 +332,7 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .features-items {
+.features .features-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -613,8 +613,8 @@ aside .content-wrapper .form {
   flex-basis: 50%;
 }
 
-.features .features-item {
-  width: 62%;
+.features .features-item-description {
+    width: 62%;
 }
 
 .features i {
