@@ -328,7 +328,7 @@ input[type=button] {
 }
 
 .features article {
-  width: 65%;
+  width: 63%;
   margin: 30px 0;
 }
 
@@ -613,8 +613,8 @@ aside .content-wrapper .form {
   flex-basis: 50%;
 }
 
-.features .features-items {
-  width: 50%;
+.features .features-item {
+  width: 62%;
 }
 
 .features i {
